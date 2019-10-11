@@ -1,0 +1,101 @@
+header { grid-area: header; }
+aside { grid-area: aside; }
+article { grid-area: article; }
+nav { grid-area: nav; }
+footer { grid-area: footer; }
+section { grid-area: section; }
+
+header, aside, article, nav, footer, section {
+    border: none;
+}
+
+@media screen and (min-width: 480px) and (min-height: 450px) {
+    body {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'aside aside aside nav nav section'
+          'aside aside aside article article section'
+          'footer footer footer footer footer footer';
+        grid-gap: 1em;
+        font-size: 1em;
+        color: white;
+        text-align: left;
+        background-image: url("./IMG/tausta3.jpg");
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color:  rgb(68, 50, 35);
+        }
+    }
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    body {
+        display: grid;
+        grid-template-areas:
+        'header header header header header header'
+        'nav nav nav nav nav nav'
+        'section section section section section section'
+        'article article article article article article'
+        'footer footer footer footer footer footer';
+        grid-gap: 1em;
+        font-size: 1em;
+        text-align: center;
+        color: white;
+        background-color: rgb(68, 50, 35);
+        }
+    h3 {
+        text-align: center;
+    }
+    }
+
+@media screen and (max-height: 450px) {
+    body {
+        display: grid;
+        grid-template-areas:
+        'header header header header header header'
+        'nav nav nav nav nav nav'
+        'section section section section section section'
+        'article article article article article article'
+        'footer footer footer footer footer footer';
+        grid-gap: 1em;
+        font-size: 1em;
+        text-align: center;
+        color: white;
+        background-color: rgb(68, 50, 35);
+        }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+    h1 {
+        font-family: 'Courgette', cursive;
+        text-align: center;
+        margin: 3em 0em 0em 0em;
+    }
+
+    nav {
+      display: none;
+    }
+
+    aside {
+        display: none;
+    }
+    
+    article {
+        font-size: 1em;
+        font-family: 'Courgette', cursive;
+    }
+    
+    section {
+        display: none;
+    }
+    
+    footer {
+        font-size: 0.8em;
+        font-family: 'Khand', sans-serif;
+        text-align: center;
+    }

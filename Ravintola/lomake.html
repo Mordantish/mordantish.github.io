@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="lomake.css">
+        <link href="https://fonts.googleapis.com/css?family=Courgette%7CKhand&display=swap" rel="stylesheet">
+        <title>Ravintola Lapintaika - Palautelomake</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Palautelomake</h1>
+            </header>
+            
+                
+            <article>
+                
+                <form action="somePHPpage.php" method="post">
+
+                    <header><h3>Vierailun päivämäärä</h3></header><br>
+                    <input type="date" name="date"><br>
+                    <br>
+                    Odotusaika:<br>
+                    <input type="radio" name="wait1">Lyhyt
+                    <input type="radio" name="wait2">Sopiva
+                    <input type="radio" name="wait3">Pitkä<br>
+
+                    Ruoan hinta:<br>
+                    <input type="radio" name="price1">Kallis
+                    <input type="radio" name="price2">Sopiva
+                    <input type="radio" name="price3">Halpa<br>
+
+                    Ruoan lämpötila:<br>
+                    <input type="radio" name="temp1">Kuuma
+                    <input type="radio" name="temp2">Lämmin
+                    <input type="radio" name="temp3">Kylmä<br>
+
+                    Ruoan ulkonäkö:<br>
+                    <input type="radio" name="appearance1">Erinomainen
+                    <input type="radio" name="appearance2">Keskiverto
+                    <input type="radio" name="appearance3">Välttävä<br>
+
+                    Ruoan maku:<br> 
+                    <input type="radio" name="taste1">Erinomainen
+                    <input type="radio" name="taste2">Keskiverto
+                    <input type="radio" name="taste3">Välttävä<br>
+
+                    Palvelun taso:<br>
+                    <input type="radio" name="service1">Erinomainen
+                    <input type="radio" name="service2">Keskiverto
+                    <input type="radio" name="service3">Välttävä<br>
+                    <br>
+
+                    Etu- ja sukunimi:<br>
+                    <input type="text" name="firstname" maxlength=50 placeholder="Etunimi&nbsp;Sukunimi"><br>
+                    Sähköposti:<br>
+                    <input type="text" name="email" placeholder="joku@gmail.com"><br>
+
+                    Puhelinnumero:<br>
+                    <input type="text" name="tel" placeholder="045 123 4567"><br>
+                    <br>
+                    Vapaamuotoinen palaute:<br>
+                    <textarea name="message" rows="5" cols="35" placeholder="Palautteesi"></textarea><br>
+                    <br>
+                    <input type="submit" value="Lähetä">
+                    
+                </form>
+            </article>
+    
+            <footer>    
+            </footer>
+                
+        </body>
+    
+    
+    </html>

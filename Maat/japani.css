@@ -1,0 +1,117 @@
+body {
+    font-size: 16px;
+    background-image: url("./IMG/japani.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    height: auto;
+    width: auto;
+    padding: 0.5em;
+    border-width: 2px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+}
+
+.navbutton:link,
+.navbutton:visited,
+.navbutton:hover,
+.navbutton:active {
+    display: inline-flex;
+    padding: 1.0em 2.0em;
+    background: rgba(29, 29, 29, 0.4);
+    color: rgb(255, 255, 255);
+    border-radius: 0.3em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+
+.yleinen {
+    display: block;
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aloituskuva img {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+#general {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    color: white;
+    list-style-type: circle;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+.infotext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.0em;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#info {
+    display: flex;
+    border-radius: 2em;
+    background-color: rgba(29, 29, 29, 0.4);
+    margin: 2em 12em;
+}
+
+#maantiede {
+    display: flex;
+    border-radius: 2em;
+    background-color: rgba(29, 29, 29, 0.4);
+    margin: 2em 12em;
+}
+
+#kasvillisuus {
+    display: flex;
+    border-radius: 2em;
+    background-color: rgba(29, 29, 29, 0.4);
+    margin: 2em 12em;
+}
+
+#linkki a:link,
+#linkki a:visited,
+#linkki a:hover {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 10em;
+    padding-right: 10em;
+}

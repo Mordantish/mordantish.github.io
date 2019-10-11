@@ -1,0 +1,20 @@
+
+
+body {
+    background-color: 
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+
+.jumbotron {
+    background-color: rgb(255, 230, 204);
+}
+
+#kortit {
+    display: flex;
+    
+}
+
+.contact {
+    
+}
