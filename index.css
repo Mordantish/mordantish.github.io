@@ -10,9 +10,9 @@ body {
 
 #cards {
     display: flex;
- 
+    justify-content: center; 
 }
 
 .contactinfo {
-    text-align: center;
+    justify-content: center;
 }
