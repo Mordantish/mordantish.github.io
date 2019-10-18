@@ -1,0 +1,123 @@
+body {
+    font-size: 16px;
+    background-image: url(./IMG/background.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.moon {
+    position: absolute;
+    top: 7em;
+    left: 52em;
+    width: 5em;
+    animation: drop 2500ms normal infinite cubic-bezier(0.51,-0.01, 0.36, 1.77);
+}
+
+@keyframes drop {
+    0% {
+        top: 7em;
+        left: 52em;
+    }
+
+    35% {
+        top: 13em;
+        left: 50em;
+    }
+
+    75% {
+        top: 11em;
+        left: 57em;
+    }
+
+    100% {
+        top: 7em;
+        left: 52em;
+    }
+}
+
+.greenstar {
+    position: absolute;
+    top: 8em;
+    left: 10em;
+    width: 2em;
+    transition: transform 500ms 100ms linear;
+}
+
+.greenstar:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+.yellowstar {
+    position: absolute;
+    top: 10em;
+    left: 100em;
+    width: 2em;
+    transition: transform 300ms 100ms ease-in-out;
+}
+
+.yellowstar:hover {
+    transform: scale(2.5);
+}
+
+.orangestar {
+    position: absolute;
+    top: 12em;
+    left: 25em;
+    width: 2em;
+}
+
+.orangestar:hover {
+
+}
+
+.cyanstar {
+    position: absolute;
+    top: 5em;
+    left: 80em;
+    width: 2em;
+}
+
+.cyanstar:hover {
+
+}
+
+.ghost {
+    position: absolute;
+    top: 45em;
+    left: 1em;
+    width: 5em;
+    animation: haunt 6000ms 100ms linear normal infinite;
+}
+
+@keyframes haunt {
+    0% {
+        top: 45em;
+        left: 1em;
+    }
+
+    20% {
+        top: 50em;
+        left: 22em;
+    }
+
+    40% {
+        top: 51em;
+        left: 45em;
+    }
+
+    60% {
+        top: 46em;
+        left: 70em;
+    }
+
+    80% {
+        top: 43em;
+        left: 95em;
+    }
+
+    100% {
+        top: 46em;
+        left: 115em;
+    }
+}
