@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(231, 255, 231);
+    background-color: rgb(226, 208, 118);
     font-size: 16px;
     font-family: 'Playfair Display', serif;
 }
 
 .jumbotron {
-    background-color: rgb(173, 235, 173);
+    background-color: rgba(255, 255, 255, 0.466);
 }
 
 #buttons {
