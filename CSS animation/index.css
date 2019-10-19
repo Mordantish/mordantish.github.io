@@ -1,5 +1,6 @@
     body {
-        font-size: 16px;
+        display: flex;
+        overflow: hidden;
         background-image: url("./IMG/background.svg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -12,39 +13,39 @@
 
 .moon {
     position: absolute;
-    top: 7em;
-    left: 52em;
-    width: 5em;
+    top: 23%;
+    left: 45%;
+    width: 70px;
     animation: drop 2500ms normal 3 cubic-bezier(0.51,-0.01, 0.36, 1.77);
 }
 
 @keyframes drop {
     0% {
-        top: 7em;
-        left: 52em;
+        top: 23%;
+        left: 45%;
     }
 
     35% {
-        top: 13em;
-        left: 50em;
+        top: 28%;
+        left: 48%;
     }
 
     75% {
-        top: 11em;
-        left: 57em;
+        top: 18%;
+        left: 50%;
     }
 
     100% {
-        top: 7em;
-        left: 52em;
+        top: 23%;
+        left: 45%;
     }
 }
 
 .greenstar {
     position: absolute;
-    top: 8em;
-    left: 10em;
-    width: 2em;
+    top: 15%;
+    left: 8%;
+    width: 30px;
     transition: transform 500ms 100ms linear;
 }
 
@@ -54,9 +55,9 @@
 
 .orangestar {
     position: absolute;
-    top: 12em;
-    left: 25em;
-    width: 2em;
+    top: 20%;
+    left: 28%;
+    width: 30px;
     animation: twinkle 1000ms 100ms linear normal infinite;
 }
 
@@ -79,9 +80,9 @@
 
 .cyanstar {
     position: absolute;
-    top: 5em;
-    left: 80em;
-    width: 2em;
+    top: 6%;
+    left: 50%;
+    width: 30px;
     transition: transform 150ms 100ms ease-in-out;
 }
 
@@ -92,9 +93,9 @@
 
 .yellowstar {
     position: absolute;
-    top: 10em;
-    left: 100em;
-    width: 2em;
+    top: 20%;
+    left: 70%;
+    width: 30px;
     transition: transform 300ms 100ms ease-in-out;
 }
 
@@ -104,40 +105,40 @@
 
 .ghost {
     position: absolute;
-    top: 45em;
-    left: 1em;
-    width: 5em;
+    top: 70%;
+    left: 1%;
+    width: 5%;
     animation: haunt 6000ms 100ms linear normal infinite;
 }
 
 @keyframes haunt {
     0% {
-        top: 45em;
-        left: 1em;
+        top: 70%;
+        left: 1%;
     }
 
     20% {
-        top: 50em;
-        left: 22em;
+        top: 75%;
+        left: 20%;
     }
 
     40% {
-        top: 51em;
-        left: 45em;
+        top: 70%;
+        left: 40%;
     }
 
     60% {
-        top: 46em;
-        left: 70em;
+        top: 75%;
+        left: 60%;
     }
 
     80% {
-        top: 43em;
-        left: 95em;
+        top: 70%;
+        left: 80%;
     }
 
     100% {
-        top: 46em;
-        left: 115em;
+        top: 75%;
+        left: 100%;
     }
 }
