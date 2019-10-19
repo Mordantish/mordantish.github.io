@@ -1,27 +1,14 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    margin: 0;
+    body {
+        font-size: 16px;
+        background-image: url("./IMG/background.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
-.sky .city .street {
+.sky .street {
     position: relative;
 }
-
-.sky {
-    background-image: url("./IMG/sky.svg");
-    height: 40%;
-    width: 100%;
-}
-
-
-.street {
-    background-image: url("./IMG/street.svg");
-    height: 30%;
-    width: 100%;
-} 
-
 
 .moon {
     position: absolute;
@@ -65,18 +52,6 @@ html, body {
     transform: scale(1.5) rotate(360deg);
 }
 
-.yellowstar {
-    position: absolute;
-    top: 10em;
-    left: 100em;
-    width: 2em;
-    transition: transform 300ms 100ms ease-in-out;
-}
-
-.yellowstar:hover {
-    transform: scale(2.5);
-}
-
 .orangestar {
     position: absolute;
     top: 12em;
@@ -102,7 +77,6 @@ html, body {
     }
 }
 
-
 .cyanstar {
     position: absolute;
     top: 5em;
@@ -114,6 +88,18 @@ html, body {
 .cyanstar:hover {
     transform: skew(70deg,70deg);
     -webkit-transform: skew(70deg,70deg);
+}
+
+.yellowstar {
+    position: absolute;
+    top: 10em;
+    left: 100em;
+    width: 2em;
+    transition: transform 300ms 100ms ease-in-out;
+}
+
+.yellowstar:hover {
+    transform: scale(2.5);
 }
 
 .ghost {
