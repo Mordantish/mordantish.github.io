@@ -116,8 +116,8 @@ body {
     position: absolute;
     top: 75%;
     left: 0%;
-    width: 50px;
-    animation: haunt 6000ms 100ms linear normal infinite;
+    width: 60px;
+    animation: haunt 10000ms 100ms linear normal infinite;
 }
 
 @keyframes haunt {
