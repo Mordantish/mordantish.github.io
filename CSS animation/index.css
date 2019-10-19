@@ -1,17 +1,34 @@
-body {
-    font-size: 16px;
-    background-image: url(./IMG/background.svg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
 }
+
+.sky .city .street {
+    position: relative;
+}
+
+.sky {
+    background-image: url("./IMG/sky.svg");
+    height: 40%;
+    width: 100%;
+}
+
+
+.street {
+    background-image: url("./IMG/street.svg");
+    height: 30%;
+    width: 100%;
+} 
+
 
 .moon {
     position: absolute;
     top: 7em;
     left: 52em;
     width: 5em;
-    animation: drop 2500ms normal infinite cubic-bezier(0.51,-0.01, 0.36, 1.77);
+    animation: drop 2500ms normal 3 cubic-bezier(0.51,-0.01, 0.36, 1.77);
 }
 
 @keyframes drop {
