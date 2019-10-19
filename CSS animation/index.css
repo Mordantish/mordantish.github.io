@@ -86,7 +86,7 @@ html, body {
     top: 6%;
     left: 50%;
     width: 30px;
-    transition: transform 200ms 100ms 10;
+    transition: transform 200ms 100ms;
 }
 
 .cyanstar:hover {
