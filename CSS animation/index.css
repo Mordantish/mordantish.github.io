@@ -1,10 +1,4 @@
-html {
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-}    
-
-body {
+html, body {
     height: 100%;
     width: 100%;
     margin: 0%;
@@ -92,13 +86,14 @@ body {
     top: 6%;
     left: 50%;
     width: 30px;
-    transition: transform 150ms 100ms ease-in-out;
+    transition: transform 200ms 100ms 10 ease-in-out;
 }
 
 .cyanstar:hover {
-    transform: skew(70deg,70deg);
-    -webkit-transform: skew(70deg,70deg);
+    transform: skew(60deg,60deg);
+    -webkit-transform: skew(60deg,60deg);
 }
+
 
 .yellowstar {
     position: absolute;
