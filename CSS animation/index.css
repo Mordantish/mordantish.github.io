@@ -65,21 +65,38 @@ body {
     top: 12em;
     left: 25em;
     width: 2em;
+    animation: twinkle 1000ms 100ms linear normal infinite;
 }
 
-.orangestar:hover {
+@keyframes twinkle {
+    0% {
+        scale:(1.0);
+        -webkit-transform: scale(1.0);
+    }
 
+    50% {
+        scale:(0.1);
+        -webkit-transform: scale(0.1);
+    }
+
+    100% {
+        scale:(1.0);
+        -webkit-transform: scale(1.0);
+    }
 }
+
 
 .cyanstar {
     position: absolute;
     top: 5em;
     left: 80em;
     width: 2em;
+    transition: transform 150ms 100ms ease-in-out;
 }
 
 .cyanstar:hover {
-
+    transform: skew(70deg,70deg);
+    -webkit-transform: skew(70deg,70deg);
 }
 
 .ghost {
