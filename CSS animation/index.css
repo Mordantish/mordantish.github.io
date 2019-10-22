@@ -7,7 +7,7 @@ html, body {
     background-image: url("./IMG/background.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
 
 
 .sky .street {
@@ -19,10 +19,10 @@ html, body {
     top: 23%;
     left: 45%;
     width: 70px;
-    animation: jerk 2500ms normal 3 cubic-bezier(0.51,-0.01, 0.36, 1.77);
+    animation: nudge 2500ms normal 3 cubic-bezier(0.51,-0.01, 0.36, 1.77);
 }
 
-@keyframes jerk {
+@keyframes nudge {
     0% {
         top: 23%;
         left: 45%;
